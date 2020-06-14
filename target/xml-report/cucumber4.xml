@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="4" tests="5" time="84.147">
+<testcase classname="Single data table" name="TC01_google seach test" time="0.043">
+<skipped><![CDATA[Given user is on the google page............................................undefined
+And user searches for "iphone"..............................................undefined
+Then verify the result has "iphone".........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Single data table" name="TC01_google seach test 2" time="0.001">
+<skipped><![CDATA[Given user is on the google page............................................undefined
+And user searches for "istanbul"............................................undefined
+Then verify the result has "istanbul".......................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Single data table" name="TC01_google seach test 3" time="0.001">
+<skipped><![CDATA[Given user is on the google page............................................undefined
+And user searches for "apple"...............................................undefined
+Then verify the result has "apple"..........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Single data table" name="TC01_google seach test 4" time="0">
+<skipped><![CDATA[Given user is on the google page............................................undefined
+And user searches for "orange"..............................................undefined
+Then verify the result has "orange".........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="login feature" name="TC01_User should login with manager credentials" time="81.044">
+<system-out><![CDATA[Given user is on the fhctriplogin page......................................passed
+And user enter valid manager username.......................................passed
+And user enter valid manager password.......................................passed
+And user clicks on login button.............................................passed
+Then verify the manager login is successful.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

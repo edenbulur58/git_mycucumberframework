@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="2" tests="2" time="2.918">
+<testcase classname="Google search" name="TC01_User searches iphone on google" time="0.106">
+<skipped><![CDATA[Given user is on the google page............................................undefined
+And user searched for iphone................................................undefined
+Then verify the result has iphone...........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Google search" name="TC02_User searches tea pot on google" time="0.002">
+<skipped><![CDATA[Given user is on the google page............................................undefined
+And user searches for tea pot...............................................undefined
+Then verify the result has tea pot..........................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

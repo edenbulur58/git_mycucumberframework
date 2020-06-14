@@ -1,0 +1,321 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-14T12:31:41.620Z",
+        "line": 9,
+        "name": "TC01_google seach test",
+        "description": "",
+        "id": "single-data-table;tc01-google-seach-test;test-data;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on the google page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user searches for \"iphone\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "verify the result has \"iphone\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-14T12:31:41.766Z",
+        "line": 10,
+        "name": "TC01_google seach test",
+        "description": "",
+        "id": "single-data-table;tc01-google-seach-test;test-data;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on the google page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user searches for \"istanbul\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "verify the result has \"istanbul\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-14T12:31:41.806Z",
+        "line": 11,
+        "name": "TC01_google seach test",
+        "description": "",
+        "id": "single-data-table;tc01-google-seach-test;test-data;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on the google page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user searches for \"apple\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "verify the result has \"apple\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-14T12:31:41.821Z",
+        "line": 12,
+        "name": "TC01_google seach test",
+        "description": "",
+        "id": "single-data-table;tc01-google-seach-test;test-data;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on the google page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user searches for \"orange\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "verify the result has \"orange\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Single data table",
+    "description": "",
+    "id": "single-data-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FE1200_US2500_google%20search%20data%20tables.feature",
+    "tags": [
+      {
+        "name": "@datatable",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-14T12:31:41.929Z",
+        "line": 4,
+        "name": "TC01_User should login with manager credentials",
+        "description": "",
+        "id": "login-feature;tc01-user-should-login-with-manager-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45816000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the fhctriplogin page",
+            "match": {
+              "location": "stepdefinitions.FHCLogin_Steps.user_is_on_the_fhctriplogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1905000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid manager username",
+            "match": {
+              "location": "stepdefinitions.FHCLogin_Steps.user_enter_valid_manager_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2860000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid manager password",
+            "match": {
+              "location": "stepdefinitions.FHCLogin_Steps.user_enter_valid_manager_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27941000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepdefinitions.FHCLogin_Steps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2522000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the manager login is successful",
+            "match": {
+              "location": "stepdefinitions.FHCLogin_Steps.verify_the_manager_login_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FHClogin"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FHCLogin.feature",
+    "tags": [
+      {
+        "name": "@FHClogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  }
+]

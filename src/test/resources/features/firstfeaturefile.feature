@@ -1,4 +1,4 @@
-@googlesearch
+@googlesearch @first
 Feature:Google search
 
   Background:user is on the google page
@@ -11,4 +11,3 @@ Feature:Google search
   Scenario: TC02_User searches tea pot on google
     And user searches for tea pot
     Then verify the result has tea pot
-

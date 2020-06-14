@@ -1,0 +1,121 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-14T12:31:42.214Z",
+        "line": 3,
+        "name": "TC01_user should login with manager credentials",
+        "description": "",
+        "id": "login-feature-with-parameters;tc01-user-should-login-with-manager-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45570000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the fhctriplogin page",
+            "match": {
+              "location": "stepdefinitions.FHCLogin_Steps.user_is_on_the_fhctriplogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 381000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid manager username \"manager2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager2\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.FHCLogin_Steps.user_enter_valid_manager_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1466000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid manager password \"Man1ager2!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Man1ager2!\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.FHCLogin_Steps.user_enter_valid_manager_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38355000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepdefinitions.FHCLogin_Steps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1687000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the manager login is successful",
+            "match": {
+              "location": "stepdefinitions.FHCLogin_Steps.verify_the_manager_login_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FHCloginParameters"
+          },
+          {
+            "name": "@second"
+          }
+        ]
+      }
+    ],
+    "name": "login feature with parameters",
+    "description": "",
+    "id": "login-feature-with-parameters",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Parameterizing.feature",
+    "tags": [
+      {
+        "name": "@FHCloginParameters",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@second",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 21
+        }
+      }
+    ]
+  }
+]
